@@ -1,7 +1,5 @@
 require 'pry'
 
-array = ["a", "b", "c"]
-
 def oxford_comma(array)
   if array.length === 1
     array.join
@@ -14,5 +12,3 @@ def oxford_comma(array)
     array.join(", ")
   end
 end
-
-oxford_comma(array)
